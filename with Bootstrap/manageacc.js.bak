@@ -1,0 +1,19 @@
+const targetDiv = document.getElementById("creatediv");
+    const btn = document.getElementById("createbtn");
+    btn.onclick = function () {
+      if (targetDiv.style.display !== "none") {
+        targetDiv.style.display = "none";
+      } else {
+        targetDiv.style.display = "block";
+      }
+    };
+	
+	  const targetDiv = document.getElementById("updatediv");
+    const btn = document.getElementById("update");
+    btn.onclick = function () {
+      if (targetDiv.style.display !== "none") {
+        targetDiv.style.display = "none";
+      } else {
+        targetDiv.style.display = "block";
+      }
+    };
