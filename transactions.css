@@ -1,0 +1,246 @@
+p{
+	font-family: 'Open Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+body  
+{  
+    margin: 0px;  
+    padding: 0px;  
+	background-color:white;
+    background-image: url('mountainbg.jpg');  
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-size: cover;
+	font-family: 'Open Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}  
+.left-panel{  
+	text-align: left;
+    width: 23.5%;  
+	height: 100%;
+    padding-left: 10px; 
+	padding-right: 10px; 
+    background-image: linear-gradient(#323232 , #696969);
+    border: 0px solid black;	 
+	margin: 0px;
+	float:left;
+	display:inline;
+}  
+.createAcc-panel{  
+	text-align: left;
+    width: 73.8%;  
+	height: 100%;
+    padding-left: 10px; 
+	padding-right: 10px; 
+    background-image: linear-gradient(to right, white , #696969);
+    border: 0px solid black;	 
+	margin: 0px;
+	float:right;
+	display:inline;
+}  
+h1.title {
+	text-align: center;  
+	color: white;  
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
+	word-spacing: 1px;
+	font-size: 30px;
+}
+h1{  
+    text-align: center;  
+    color: black;  
+	font-family: 'Open Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+	font-size:40px;
+} 
+#button{  
+    width: 355px;  
+    height: 50px;  
+    border: 0px solid black;
+    background-image: linear-gradient(to right, #7D7D7D , #9E9E9E);  
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
+	font-size:16px;
+	color:white;
+	font-weight: bolder; 
+}  
+#logoutbutton{  
+    width: 355px;  
+    height: 50px;  
+    border: 0px solid black;
+    background-image: linear-gradient(to right, #DC1C13 , #FE2712);   
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
+	font-size:16px;
+	color:white;
+	font-weight: bolder; 
+} 
+span{  
+    color: black;  
+	font-family: 'Open Sans', sans-serif;
+    font-size: 17px; 
+    display:block;
+	cursor:pointer;	
+}  
+.centerimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+#userName{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 15px;  
+    padding-left: 8px;  
+	color: black;
+	background-color: #DEDEDE;
+	font-family: 'Ubuntu', sans-serif;
+}  
+#password{  
+    width: 250px;  
+    height: 20px;  
+    border: none;  
+    border: 1px solid black;  
+    padding-left: 8px;  
+    color: black;
+	background-color: white;
+	font-family: 'Ubuntu', sans-serif;
+	text-transform:none;
+}  
+#txtBox{  
+    width: 250px;  
+    height: 20px;  
+    border: none;  
+    border: 1px solid black;  
+    padding-left: 8px;  
+    color: black;
+	background-color: white;
+	font-family: 'Ubuntu', sans-serif;
+}  
+#fullname{  
+    width: 250px;  
+    height: 20px;  
+    border: none;  
+    border: 1px solid black;  
+    padding-left: 8px;  
+    color: black;
+	background-color: white;
+	font-family: 'Ubuntu', sans-serif;
+} 
+#username{  
+    width: 250px;  
+    height: 20px;  
+    border: none;  
+    border: 1px solid black;  
+    padding-left: 8px;  
+    color: black;
+	background-color: white;
+	font-family: 'Ubuntu', sans-serif;
+} 
+#age{  
+    width: 250px;  
+    height: 20px;  
+    border: none;  
+    border: 1px solid black;  
+    padding-left: 8px;  
+    color: black;
+	background-color: white;
+	font-family: 'Ubuntu', sans-serif;
+}   
+#gender{  
+    width: 250px;  
+    height: 20px;  
+    border: none;  
+    border: 1px solid black;  
+    padding-left: 8px;  
+    color: black;
+	background-color: white;
+	font-family: 'Ubuntu', sans-serif;
+} 
+#status{  
+    width: 250px;  
+    height: 20px;  
+    border: none;  
+    border: 1px solid black;  
+    padding-left: 8px;  
+    color: black;
+	background-color: white;
+	font-family: 'Ubuntu', sans-serif;
+}    
+#submitbtn{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    background-image: linear-gradient(#00AB08 , #4DED30);  
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
+	font-size:16px;
+	color:white;
+	font-weight: bolder; 
+}
+label{
+	padding-left:50px;
+}
+  
+table{
+	margin-left:auto;
+	margin-right:auto;
+	padding: 5px;}
+
+#create{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    background-image: linear-gradient(#00AB08 , #4DED30);  
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
+	font-size:16px;
+	color:white;
+	font-weight: bolder; 
+}  
+#createlabel{
+	color: black;    
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
+	font-size:16px;
+}
+.table-responsive-stack tr{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+}
+.table-responsive-stack td,
+.table-responsive-stack th {
+   display:block;
+/* flex-grow | flex-shrink | flex-basis */
+   -ms-flex: 1 1 auto;
+   flex: 1 1 auto;
+}
+.table-responsive-stack .table-responsive-stack-thead{
+   font-weight: bold;
+}
+@media screen and (max-width: 768px){
+	.table-responsive-stack tr {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+		border-bottom: 3px solid #ccc;
+		display:block;   
+   }
+   /*  IE9 FIX   */
+   .table-responsive-stack td {
+		float: left\9;
+		width:100%;
+   }
+}
