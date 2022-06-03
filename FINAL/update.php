@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manage Accounts | Mr. Kimbob</title>
+    <title>Update Account | Mr. Kimbob</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
  <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -68,9 +68,10 @@ include 'db_connection.php';
 $sql = "SELECT * FROM tbl_acc";
 if ($result=mysqli_query($conn,$sql)) {
     $rowcount=mysqli_num_rows($result);
-    echo "&nbsp<div><p>The number of active accounts is:  ".$rowcount."</p></div>"; 
+    echo "&nbsp<div><p style = 'text-align: center;'>The number of registered user accounts is:<b>  ".$rowcount."</b><i> accounts</i></p></div>"; 
 }
 ?> 
+
     <br>
 	<div style ="overflow:hidden;
     overflow-y: scroll;
@@ -89,9 +90,14 @@ if ($result=mysqli_query($conn,$sql)) {
             </tr>
         </thead>
         <tbody>
+		
             <?php 
               include 'db_connection.php';
-              $sql = "SELECT * from tbl_acc";
+			   $id = $_GET['id'];
+			    if (!isset($id)) {
+        header('location: update.php');
+    }
+	 $sql = "SELECT * FROM songs WHERE id = '$id'";
               $result = mysqli_query($conn, $sql);
               if (mysqli_num_rows($result) > 0) {
                   while ($row = mysqli_fetch_assoc($result)) {
@@ -117,10 +123,10 @@ if ($result=mysqli_query($conn,$sql)) {
 	<br>
 	<hr>
 	<div class = "create " id="creatediv">
-<h2 style = "text-align:center;">CREATE A NEW ACCOUNT</h2>
+<h2 style = "text-align:center;">UPDATE AN ACCOUNT</h2>
     <legend><b><i>Account Information</i></b></legend>
 	<br>
-<form method = "POST" action = "manageacc.php">  
+<form method = "POST" action = "update.php">  
 
 <div class="input-group input-group-sm mb-3">
   <div class="input-group-prepend">
